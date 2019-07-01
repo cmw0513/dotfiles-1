@@ -12,14 +12,11 @@
   co = checkout
   pf = push --force-with-lease
   st = status
-  pr = pull --rebase
-  glog = log -E -i --grep
+	glog = log -E -i --grep
 	car = commit --amend --no-edit
-  unstage = reset
-  uncommit = reset --soft HEAD^
-  gco = git
-	sla = log --oneline --decorate --graph --all
-	sweep = branch --merged | egrep -v \"(^\\*|master|dev)\" | xargs git branch -d
+	unstage = reset
+	uncommit = reset --soft HEAD^
+	gco = git
 [core]
   excludesfile = ~/.gitignore
   autocrlf = input
@@ -28,17 +25,8 @@
 [commit]
   template = ~/.gitmessage
 [fetch]
-	prune = true
+  prune = true
 [rebase]
   autosquash = true
 [include]
   path = ~/.gitconfig.local
-[diff]
-  colorMoved = zebra
-[user]
-	name = Christina Wolfe
-	email = christina.wolfe@ibanity.com
-[branch]
-	autosetupmerge = true
-[http]
-	sslVerify = false

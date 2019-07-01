@@ -39,3 +39,15 @@ _load_settings "$HOME/.zsh/configs"
 
 # aliases
 [[ -f ~/.aliases ]] && source ~/.aliases
+
+test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
+
+alias dc="docker-compose"
+alias dcr="docker-compose run --rm"
+alias dcu="docker-compose up -d"
+alias dclf="docker-compose logs -f --tail=1"
+
+# SSH
+eval `ssh-agent`
+
+/usr/bin/ssh-add -K

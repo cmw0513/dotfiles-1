@@ -1,0 +1,45 @@
+{
+  "bootstrapped": true,
+  "in_process_packages":
+  [
+  ],
+  "installed_packages":
+  [
+    "AdvancedNewFile",
+    "All Autocomplete",
+    "ApplySyntax",
+    "Better CoffeeScript",
+    "BracketHighlighter",
+    "Clipboard Manager",
+    "CTags",
+    "DashDoc",
+    "DocBlockr",
+    "EditorConfig",
+    "Emmet",
+    "ERB Snippets",
+    "Floobits",
+    "Git",
+    "Git Conflict Resolver",
+    "GitGutter",
+    "Guard",
+    "JavaScriptNext - ES6 Syntax",
+    "JSX",
+    "Markdown Preview",
+    "Monokai - Spacegray",
+    "Package Control",
+    "Pretty JSON",
+    "Pretty Ruby",
+    "RuboCop",
+    "Ruby on Rails snippets",
+    "SCSS",
+    "SideBarEnhancements",
+    "sublime-github",
+    "SublimeCodeIntel",
+    "SublimeLinter",
+    "SublimeLinter-jshint",
+    "SublimeLinter-json",
+    "SublimeLinter-rubocop",
+    "Syntax Highlighting for Sass",
+    "Theme - Spacegray"
+  ]
+}
