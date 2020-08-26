@@ -48,8 +48,6 @@ alias dcu="docker-compose up -d"
 alias dclf="docker-compose logs -f --tail=1"
 
 # SSH
-eval `ssh-agent`
-
 /usr/bin/ssh-add -K
 
 . $(brew --prefix asdf)/asdf.sh
