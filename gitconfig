@@ -20,6 +20,7 @@
   gco = git
 	sla = log --oneline --decorate --graph --all
 	sweep = branch --merged | egrep -v \"(^\\*|master|dev)\" | xargs git branch -d
+ set-upstream = !git branch --set-upstream-to=origin/`git symbolic-ref --short HEAD`
 [core]
   excludesfile = ~/.gitignore
   autocrlf = input
